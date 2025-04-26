@@ -1,7 +1,7 @@
 # :fontawesome-brands-apple: macOS
 
 !!! warning
-	This section is outdated.
+	This section is outdated and the information is incorrect.
 
 LunaSea-ng is available on macOS 10.15+.
 

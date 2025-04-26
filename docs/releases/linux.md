@@ -1,7 +1,7 @@
 # :fontawesome-brands-linux: Linux
 
 !!! warning
-	This section is outdated.
+	This section is outdated and the information is incorrect.
 
 LunaSea-ng is available on all graphical Linux distributions that have `snap` installed and configured or are capable of installing a Debian distribution (`.deb`).
 

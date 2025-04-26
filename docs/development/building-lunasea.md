@@ -34,5 +34,4 @@
         ```bash
         flutter run
         ```
-
 ---

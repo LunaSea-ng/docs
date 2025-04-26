@@ -1,7 +1,7 @@
 # :fontawesome-solid-globe: Web
 
 !!! warning
-	This section is outdated.
+	This section is outdated and the information is incorrect.
 
 LunaSea-ng can be hosted as a web application for usage within any modern browser!
 

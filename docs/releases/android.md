@@ -1,7 +1,7 @@
 # :fontawesome-brands-android: Android
 
 !!! warning
-	This section is outdated.
+	This section is outdated and the information is incorrect.
 
 LunaSea is available on Android 7.0+.
 

@@ -1,7 +1,7 @@
 # :fontawesome-solid-desktop: Windows
 
 !!! warning
-	This section is outdated.
+	This section is outdated and the information is incorrect.
 
 LunaSea-ng is available on Windows 10+.
 

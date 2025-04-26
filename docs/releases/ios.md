@@ -1,7 +1,7 @@
 # :fontawesome-brands-apple: iOS
 
 !!! warning
-	This section is outdated.
+	This section is outdated and the information is incorrect..
 
 LunaSea is available on iOS 11.0+.
 
