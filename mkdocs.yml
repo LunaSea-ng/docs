@@ -1,0 +1,73 @@
+site_name: LunaSea-ng
+site_url: https://lunasea-ng.github.io/docs
+theme:
+  name: material
+  favicon: img/favicon.png
+  logo: img/logo.png
+  features:
+    - navigation.expand
+  palette:
+    # Auto mode (system preference)
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Build Channels: getting-started/build-channels.md
+      - Platform Restrictions: getting-started/platform-restrictions.md
+  - Modules:
+      - Sonarr: modules/sonarr.md
+      - Radarr: modules/radarr.md
+      - Lidarr: modules/lidarr.md
+      - Tautulli: modules/tautulli.md
+      - Overseerr: modules/overseerr.md
+      - NZBGet: modules/nzbget.md
+      - SABnzbd: modules/sabnzbd.md
+      - Newznab Search: modules/newznab.md
+      - Wake on LAN: modules/wake-on-lan.md
+  - Releases:
+      - Android: releases/android.md
+      - iOS: releases/ios.md
+      - Linux: releases/linux.md
+      - macOS: releases/macos.md
+      - Web: releases/web.md
+      - Windows: releases/windows.md
+  - Development Guide:
+      - Requirements: development/requirements/requirements.md
+      - Android Keystore: development/requirements/android-keystore.md
+      - iOS Development Certificate: development/requirements/ios-development-certificate.md
+      - macOS Development Certificate: development/requirements/macos-development-certificate.md
+      - Building LunaSea: development/building-lunasea.md
+  - Frequently Asked Questions: faq.md
+extra:
+  homepage: https://github.com/LunaSea-ng/LunaSea-ng
